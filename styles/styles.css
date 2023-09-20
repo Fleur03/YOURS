@@ -1,0 +1,192 @@
+/*Body & Header*/
+
+body{
+    background-color:#E5E5E5;
+        margin: 0em;
+        padding: 0em;
+        box-sizing: border-box;
+        max-width: 30em;
+        
+    }
+
+
+header h1 {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 0;
+    margin-top: 10px;
+}
+header button {
+    position: absolute;
+    background: none;
+    border: none;
+    top: 1em;
+    margin-left: 15px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+
+/*Typografie*/
+
+a{
+    text-decoration: none;
+    color: #414343;
+    font-size: 10px;
+}
+
+p{
+    font-family: 'Expletus Sans', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,a{
+    color: #7b7c7c;;
+    font-family: 'Expletus Sans', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+
+
+}
+
+
+/*Contactformulier*/
+
+    input{
+    border-color:white ;
+    background-color:#E5E5E5;
+    border-radius: 1em;
+    width: 20em;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+}
+
+form{
+    font-family: 'Expletus Sans', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+       }
+
+    input:nth-of-type(4) {
+    height: 100px;
+}
+    
+    input:nth-of-type(5) {
+        width: 90px;
+        height: 40px;
+        margin-left: 50px;
+        background-color:rgb(198, 189, 183);
+        color: white;
+        border-color: rgb(253, 249, 249);
+        
+        
+        }
+
+        input:nth-of-type(5):hover{
+            background-color: rgb(233, 180, 180);
+            animation-name: button;
+            animation-duration: .5s;
+            animation-fill-mode: forwards;
+            transform-origin: 10%;
+}
+
+
+label{
+        display: block;
+        float: top;
+        color: black;
+}
+
+
+/*annimatie*/
+
+@keyframes button{
+    100% {
+        scale: 2;
+    }
+}
+
+
+
+/* Afbeeldingen en teksten van pagina 1 */
+
+
+
+
+    main img {
+    margin-bottom: 20px;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    img:nth-of-type(1) {
+        margin-top: 15px;
+    }
+    
+    img:nth-of-type(2) {
+        margin-top: 10px;
+    }
+    
+    img:nth-of-type(4) {
+        margin-bottom: 60px;
+     }
+    
+    img:nth-of-type(5) {
+    margin-top: 20px;
+    margin-bottom: 95px;
+    }
+
+    h1, h2,p{
+        padding-left: 10px;
+        max-width: 100%;
+    }
+      
+
+
+
+    /* Afbeeldingen en tekst van pagina 2 */
+
+    .page2 img{
+        padding-bottom: 20px;
+    
+    }
+
+    .page2 img:nth-of-type(2) {
+     margin-bottom: 20px;
+     margin-top: 50px;
+    }
+
+    .page2 h1, h2,p{
+        max-width: 100%;
+      }
+
+      /*Iframe*/ 
+
+      iframe{
+        margin-bottom: 40px;
+        margin-top: 40px;
+        max-width: 100%;
+
+      }
+
+      footer{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        height: 50px;
+        
+        
+        
+
+      }
